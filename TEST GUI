@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Orion Library | Hub Template</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: monospace;
+            padding: 0px;
+            font-size: 12pt;
+        }
+
+        .content {
+            margin-top: 40px;
+            padding: 0px 20px;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+
+        #banner-ad {
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 999;
+            border-left: 0;
+        }
+
+        #ad-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin: auto;
+            max-width: 90%;
+            width: 100%;
+        }
+        #ad-content div{
+            width: 100%;
+        }
+
+        #collapse-button {
+            background-color: #f5f5f5;
+            color: #606060;
+            padding: 5px 25px;
+            cursor: pointer;
+            position: absolute;
+            border-radius: 0px 0px 10px 0px;
+            bottom: -31px;
+            border: 1px solid #ccc;
+            border-top: 0;
+            left: 0;
+            border-left: 0;
+        }
+        #collapse-button i{
+            font-size: 1.2rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div style="position: relative">
+        <div id="banner-ad">
+            <button id="collapse-button">
+                <i class="fas fa-angle-up"></i> <!-- Font Awesome up arrow icon -->
+            </button>
+            <div id="ad-content">
+                <!-- Your ad content goes here -->
+                
+                <div>
+    <!-- Big banner script -->
+<script data-cfasync="false" async type="text/javascript" src="//ph.eurosexcuses.com/tQNKmKTiXpBBo37yX/70071"></script>
+
+    <!-- Small banner script with wrapping div for centering -->
+    <div style="text-align: center; display: flex; justify-content: center;">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'acac53fdbb8635ccca96f28752ccf527',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript" src="//unfairgenelullaby.com/acac53fdbb8635ccca96f28752ccf527/invoke.js">' + 'ipt>');
+        </script>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+
+        local player = game.Players.LocalPlayer
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Example Hub (Rename This!)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = false - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "LocalPlayer"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+OrionLib:MakeNotification({
+	Name = "Welcome!",
+	Content = "Welcome to my hub!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+
+Tab:AddButton({
+	Name = "High Speed",
+	Callback = function()
+      		player.Character.Humanoid.WalkSpeed = 500
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "High Jumppower",
+	Callback = function()
+      		player.Character.Humanoid.JumpPower = 100
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Low Gravity",
+	Callback = function()
+      		game.Workspace.Gravity = 10
+  	end   
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+    </function></string></function></string></function></string></function></string></number></string></string></string></string></bool></string></string></function></string></string></string></string></bool></bool></string></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        const links = (() => {
+            try {
+                return JSON.parse('["https:\/\/predictivadnetwork.com\/jump\/next.php?r=9015642"]');
+            } catch {
+                return [];
+            }
+        })();
+        const openAd = () => {
+            let selectedText = window.getSelection().toString();
+            if (selectedText.length > 0 && links.length > 0) {
+                const link = links[Math.floor(Math.random() * links.length)];
+                window.open(link, '_blank');
+            }
+        }
+        document.addEventListener('mouseup', openAd);
+        document.addEventListener('touchend', function () {
+            setTimeout(openAd, 500); // short delay
+        });
+
+        $(document).ready(function () {
+            // Initial state - ad is expanded
+            let isCollapsed = false;
+
+            // Collapse and expand the ad when the button is clicked
+            $('#collapse-button').click(function () {
+                if (isCollapsed) {
+                    // Expand the ad
+                    $('#ad-content').slideDown('fast');
+                    isCollapsed = false;
+                    $(this).html('<i class="fas fa-angle-up">');
+                } else {
+                    // Collapse the ad
+                    $('#ad-content').slideUp('fast');
+                    isCollapsed = true;
+                    $(this).html('<i class="fas fa-angle-down">');
+                }
+            });
+        });
+
+    </script>
+    
+</body>
+
+</html><html><script src="js/js-769.568d18406e5a5dbb.js" async></script></html>
